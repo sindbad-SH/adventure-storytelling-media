@@ -8,9 +8,9 @@
       // GitHub serves this file for any unknown path (e.g. /repo/portfolio).
       // We encode the path and bounce to the app root so index.html can
       // restore it and wouter renders the right page.
-      // pathSegmentsToKeep = 1 keeps the "/<repo-name>" project-page prefix.
-      // For a custom-domain / root site, set this to 0.
-      var pathSegmentsToKeep = 1;
+      // pathSegmentsToKeep = 0 for a custom-domain / root site.
+      // (Use 1 to keep a "/<repo-name>" project-page prefix.)
+      var pathSegmentsToKeep = 0;
 
       var l = window.location;
       l.replace(
