@@ -18,23 +18,21 @@ import Layout from "./components/Layout";
 // On a custom domain (base "/") this resolves to "" and routing is unaffected.
 const routerBase = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-function AppRouter() {
+function AppRoutes() {
   return (
-    <Router base={routerBase}>
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/forge-the-saga" component={ForgeTheSaga} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/field-notes" component={FieldNotes} />
-        <Route path="/insights" component={FieldNotes} />
-        <Route path="/contact" component={Connect} />
-        <Route path="/arsenal" component={Arsenal} />
-        <Route path="/map" component={MapPage} />
-        <Route path="/connect" component={Connect} />
-        <Route path="/404" component={NotFound} />
-        <Route component={NotFound} />
-      </Switch>
-    </Router>
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/forge-the-saga" component={ForgeTheSaga} />
+      <Route path="/portfolio" component={Portfolio} />
+      <Route path="/field-notes" component={FieldNotes} />
+      <Route path="/insights" component={FieldNotes} />
+      <Route path="/contact" component={Connect} />
+      <Route path="/arsenal" component={Arsenal} />
+      <Route path="/map" component={MapPage} />
+      <Route path="/connect" component={Connect} />
+      <Route path="/404" component={NotFound} />
+      <Route component={NotFound} />
+    </Switch>
   );
 }
 
@@ -44,9 +42,13 @@ function App() {
       <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
-          <Layout>
-            <AppRouter />
-          </Layout>
+          {/* Router must wrap Layout too, so the nav/footer links in Layout
+              are also prefixed with the GitHub Pages sub-path base. */}
+          <Router base={routerBase}>
+            <Layout>
+              <AppRoutes />
+            </Layout>
+          </Router>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
