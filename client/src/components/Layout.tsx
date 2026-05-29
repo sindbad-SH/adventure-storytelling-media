@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 
-const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX";
+const CDN = "";
 const CALENDLY = "https://calendly.com/sindbad-adventurestorytellingmedia/new-meeting";
 
 export default function Layout({ children }: { children: ReactNode }) {
