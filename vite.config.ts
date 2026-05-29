@@ -4,11 +4,10 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 // Base path:
-//  - "/<repo-name>/" for a GitHub Pages project site (current setup)
-//  - "/" for a custom domain or <user>.github.io root site
-// This is the test deploy at sindbad-SH.github.io/adventure-storytelling-media/.
-// When you later move to the custom domain, set VITE_BASE=/ (or change the default).
-const base = process.env.VITE_BASE || "/adventure-storytelling-media/";
+//  - "/" for a custom domain or <user>.github.io root site (current setup)
+//  - "/<repo-name>/" for a GitHub Pages project site
+// Now serving on the custom domain adventurestorytellingmedia.com, so base "/".
+const base = process.env.VITE_BASE || "/";
 
 export default defineConfig({
   base,
