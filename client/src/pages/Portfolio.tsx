@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 
-const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX";
+const CDN = "";
 const CALENDLY = "https://calendly.com/sindbad-adventurestorytellingmedia/new-meeting";
 
 type FilterTab = "all" | "founder" | "cinematic";
@@ -200,7 +200,7 @@ export default function Portfolio() {
 
                 {/* Amazing Aerial badge */}
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "2rem", padding: "0.75rem 1rem", background: "rgba(56,248,236,0.05)", border: "1px solid rgba(56,248,236,0.15)", borderRadius: "8px", width: "fit-content" }}>
-                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/amazing-aerial-wide_1dcbeda0.jpg" alt="Amazing Aerial" style={{ width: "60px", height: "40px", objectFit: "cover", borderRadius: "4px" }} />
+                  <img src="/amazing-aerial-wide_1dcbeda0.jpg" alt="Amazing Aerial" style={{ width: "60px", height: "40px", objectFit: "cover", borderRadius: "4px" }} />
                   <div>
                     <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 600, fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase" as const, color: "var(--turquoise)" }}>Represented by</div>
                     <a href="https://www.amazingaerial.com/controller/portfolio/shorizon" target="_blank" rel="noopener noreferrer" style={{ color: "var(--text-bright)", fontSize: "0.9rem", textDecoration: "none" }}>Amazing Aerial Agency</a>
@@ -274,7 +274,7 @@ export default function Portfolio() {
             <div style={{ background: "var(--bg-card)", border: "1px solid var(--asm-border)", borderRadius: "12px", padding: "2rem", maxWidth: "700px" }}>
               <div className="pillar-category">Board Chair & Lead Marketing Strategist</div>
               <a href="https://www.meme.ngo/" target="_blank" rel="noopener noreferrer" className="pillar-image-link">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/meme-banner-wide_ce60d698.png" alt="MEME — Makeshift Entertainment Media Education" style={{ width: '100%', height: 'auto', objectFit: 'contain', aspectRatio: 'auto' }} />
+                <img src="/meme-banner-wide_ce60d698.png" alt="MEME — Makeshift Entertainment Media Education" style={{ width: '100%', height: 'auto', objectFit: 'contain', aspectRatio: 'auto' }} />
               </a>
               <h3 style={{ fontFamily: "'Crimson Pro', serif", fontSize: "1.5rem", color: "var(--text-bright)", marginBottom: "0.75rem" }}>
                 MEME <span style={{ fontSize: "0.7em", color: "var(--text-dim)", fontWeight: 400 }}>(Makeshift Entertainment Media Education)</span>
@@ -307,7 +307,7 @@ export default function Portfolio() {
               {/* SeriesFest */}
               <div style={{ background: "var(--bg-card)", border: "1px solid var(--asm-border)", borderRadius: "12px", padding: "1.5rem" }}>
                 <a href="https://seriesfest.com/" target="_blank" rel="noopener noreferrer" className="pillar-image-link">
-                  <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/seriesfest-2026_0087954d.webp" alt="SeriesFest Denver 2026 — independent television festival" className="pillar-img" />
+                  <img src="/seriesfest-2026_0087954d.webp" alt="SeriesFest Denver 2026 — independent television festival" className="pillar-img" />
                 </a>
                 <h3 style={{ fontFamily: "'Crimson Pro', serif", fontSize: "1.25rem", color: "var(--text-bright)", marginBottom: "0.5rem" }}>SeriesFest</h3>
                 <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", lineHeight: 1.7 }}>

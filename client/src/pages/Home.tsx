@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "wouter";
 
-const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX";
+const CDN = "";
 const CALENDLY = "https://calendly.com/sindbad-adventurestorytellingmedia/new-meeting";
 
 const PAGE_TITLE = "Adventure Storytelling Media | Boulder, CO";
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-visual">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/ASM_Logo_Mark_SkyandLuminescentcyan_c4754089.webp" alt="ASM logo mark — mountain and river S design" />
+            <img src="/ASM_Logo_Mark_SkyandLuminescentcyan_c4754089.webp" alt="ASM logo mark — mountain and river S design" />
           </div>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div className="about-visual fade-in">
               <div className="smithy-container">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/forging-saga-blacksmith-hipm7RbCBGRd5BgZnm6kbj.webp" alt="Faceless gray-toned figure at a stone forge with turquoise fire and circuit-etched anvil — techno-adventure blacksmith" />
+                <img src="/forging-saga-blacksmith-hipm7RbCBGRd5BgZnm6kbj.webp" alt="Faceless gray-toned figure at a stone forge with turquoise fire and circuit-etched anvil — techno-adventure blacksmith" />
                 <div className="smithy-label">FORGING THE SAGA</div>
               </div>
               <div className="sindbad-photo-wrapper">
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="pillar-card fade-in">
               <div className="pillar-category">Global Visual Representation</div>
               <a href="https://www.amazingaerial.com/controller/portfolio/shorizon" target="_blank" rel="noopener noreferrer" className="pillar-image-link">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/amazing-aerial-1x1_09c80853.jpg" alt="Amazing Aerial Agency — cinematic drone aerial photography of tropical island" className="pillar-img" />
+                <img src="/amazing-aerial-1x1_09c80853.jpg" alt="Amazing Aerial Agency — cinematic drone aerial photography of tropical island" className="pillar-img" />
               </a>
               <h3>Amazing Aerial Agency</h3>
               <p>My aerial cinematography and high-end drone work are actively represented and licensed globally by the Amazing Aerial Agency.</p>
@@ -146,7 +146,7 @@ export default function Home() {
             <div className="pillar-card pillar-compact fade-in">
               <div className="pillar-category">Market Intelligence &amp; Immersion</div>
               <a href="https://seriesfest.com/" target="_blank" rel="noopener noreferrer" className="pillar-image-link">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/seriesfest-2026_0087954d.webp" alt="SeriesFest Denver 2026 — independent television festival" className="pillar-img" />
+                <img src="/seriesfest-2026_0087954d.webp" alt="SeriesFest Denver 2026 — independent television festival" className="pillar-img" />
               </a>
               <h3>SeriesFest</h3>
               <p>Keeping a pulse on the market by immersing in top-tier events like SeriesFest, contributing to high-level dialogues and translating industry trends into actionable insights.</p>
@@ -157,7 +157,7 @@ export default function Home() {
             <div className="pillar-card pillar-featured pillar-meme fade-in">
               <div className="pillar-category">In-House Strategy &amp; Leadership</div>
               <a href="https://www.meme.ngo/" target="_blank" rel="noopener noreferrer" className="pillar-image-link">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/meme-banner-wide_ce60d698.png" alt="MEME — Makeshift Entertainment Media Education banner" className="pillar-img" />
+                <img src="/meme-banner-wide_ce60d698.png" alt="MEME — Makeshift Entertainment Media Education banner" className="pillar-img" />
               </a>
               <h3>MEME <span style={{ fontSize: "0.7em", color: "var(--text-dim)", fontWeight: 400 }}>(Makeshift Entertainment Media Education)</span></h3>
               <p>Serving as Board Chair and lead marketing strategist. Beyond external consulting, I drive the internal brand architecture, audience growth, and full-stack marketing strategy for this non-profit media education organization.</p>
@@ -182,7 +182,7 @@ export default function Home() {
             <div className="service-card fade-in">
               <div className="service-card-glow"></div>
               <div className="service-card-illustration">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/story-scout-tile-new-DtMdTfE6rzpHg4eL74daRj.webp" alt="Story Scout — event coverage and production" />
+                <img src="/story-scout-tile-new-DtMdTfE6rzpHg4eL74daRj.webp" alt="Story Scout — event coverage and production" />
               </div>
               <div className="subsection-num">01</div>
               <h3>The Portfolio</h3>
@@ -192,7 +192,7 @@ export default function Home() {
             <div className="service-card fade-in">
               <div className="service-card-glow"></div>
               <div className="service-card-illustration">
-                <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663488690227/895rg4FQazWBsi7DRhtfWX/forging-saga-blacksmith-hipm7RbCBGRd5BgZnm6kbj.webp" alt="Forge the Saga — market clarity engagement" />
+                <img src="/forging-saga-blacksmith-hipm7RbCBGRd5BgZnm6kbj.webp" alt="Forge the Saga — market clarity engagement" />
               </div>
               <div className="subsection-num">02</div>
               <h3>Forge the Saga <span style={{ fontSize: "0.65em", color: "var(--text-dim)", fontWeight: 400 }}>(Services)</span></h3>
