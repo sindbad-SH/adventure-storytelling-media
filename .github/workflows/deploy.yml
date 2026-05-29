@@ -24,7 +24,6 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npm run build
-      - run: rm -f dist/CNAME
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
